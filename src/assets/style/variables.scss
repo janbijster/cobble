@@ -1,0 +1,97 @@
+// Set your colors
+$blue-dark: #272e41;
+$blue-middle: #3c4661;
+$blue-light: #47516e;
+$blue-extra-light: #909bba;
+$blue-extra-dark: #1e222e;
+
+$orange-light: #ff8e3c;
+$orange-extra-light: #ffa667;
+$orange-dark: #967156;
+
+$red-light: #d9376e;
+$red-dark: #75324e;
+
+$green-light: #d5dfac;
+$green-dark: #6d6e68;
+
+$black: #0d0d0d;
+$white: #fffffe;
+$light: #eff0f3;
+
+$primary: $light;
+$info: $blue-light;
+$info-invert: $orange-dark;
+$success: $green-light;
+$success-invert: $red-dark;
+$warning: $orange-light;
+$warning-invert: $blue-dark;
+$danger: $red-light;
+$danger-invert: $green-dark;
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$colors: (
+  'white': (
+    $white,
+    $black
+  ),
+  'black': (
+    $black,
+    $white
+  ),
+  'light': (
+    $light,
+    $blue-dark
+  ),
+  'dark': (
+    $blue-dark,
+    $light
+  ),
+  'primary': (
+    $orange-light,
+    $blue-middle
+  ),
+  'info': (
+    $info,
+    $info-invert
+  ),
+  'success': (
+    $success,
+    $success-invert
+  ),
+  'warning': (
+    $warning,
+    $warning-invert
+  ),
+  'danger': (
+    $red-light,
+    $blue-light
+  ),
+  'twitter': (
+    $red-light,
+    $blue-light
+  )
+);
+
+// Links
+$link: $black;
+$link-invert: $light;
+$link-focus-border: $primary;
+
+:export {
+  blueDark: $blue-dark;
+  blueMiddle: $blue-middle;
+  blueLight: $blue-light;
+  blueExtraLight: $blue-extra-light;
+  blueExtraDark: $blue-extra-dark;
+  orangeLight: $orange-light;
+  orangeExtraLight: $orange-extra-light;
+  orangeDark: $orange-dark;
+  redLight: $red-light;
+  redDark: $red-dark;
+  greenLight: $green-light;
+  greenDark: $green-dark;
+  black: $black;
+  whiteColor: $white;
+  light: $light;
+}

@@ -1,0 +1,133 @@
+// Import Bulma's core
+@import '~bulma/sass/utilities/_all';
+
+// Import Bulma and Buefy styles
+@import '~bulma';
+@import '~buefy/src/scss/buefy';
+
+// overwrite
+$navbar-breakpoint: 0;
+
+// import variables
+@import './variables.scss';
+
+// colors:
+.navbar {
+  background-color: $blue-light;
+}
+.navbar-item, .navbar-link {
+  color: $light;
+}
+a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active {
+  color: $light;
+  background-color: $blue-middle;
+}
+
+html, body, #app {
+  background-color: $blue-middle;
+  color: $blue-extra-light;
+}
+#app a {
+  color: $blue-extra-light;
+}
+#app a:hover {
+  color: $light;
+}
+
+
+.color-orange {
+  color: $orange-light;
+}
+.color-white {
+  color: $white;
+}
+.theme-dark {
+  background: $blue-dark;
+  color: $blue-light;
+}
+.theme-white {
+  background: $white;
+  color: $dark;
+}
+.theme-light {
+  background: $light;
+  color: $dark;
+}
+.theme-green {
+  background: $green-dark;
+  color: $green-light;
+}
+.theme-red {
+  background: $red-dark;
+  color: $red-light;
+}
+.theme-blue {
+  background: $blue-light;
+  color: $blue-extra-light;
+}
+.theme-orange {
+  background: $orange-dark;
+  color: $orange-light;
+}
+
+.border-color-dark {
+  border-color: $dark;
+}
+.border-color-orange {
+  border-color: $orange;
+}
+
+.outline-color-orange {
+  outline-color: $orange;
+}
+
+// buttons
+.button {
+  border: none;
+}
+.button:hover {
+  color: $light;
+}
+
+.button.theme-orange {
+  background-color: $orange-light;
+  color: $blue-middle !important;
+}
+.button.theme-orange:hover {
+  background-color: $orange-extra-light !important;
+  color: $blue-middle !important;
+}
+.button.theme-red:hover {
+  background-color: $red-light;
+  color: $light;
+}
+.button.theme-blue {
+  background-color: $blue-dark;
+  color: $blue-extra-light !important;
+}
+.button.theme-blue:hover {
+  background-color: $blue-middle !important;
+  color: $blue-extra-light !important; 
+}
+.button.theme-blue-light {
+  background-color: $blue-middle;
+  color: $blue-dark !important;
+}
+.button.theme-blue-light:hover {
+  background-color: $blue-light !important;
+  color: $blue-dark !important; 
+}
+
+// links
+#app a.color-orange{
+  color: $orange-light;
+}
+#app a.color-orange:hover {
+  color: $orange-extra-light;
+}
+
+// import other css
+@import './typo.scss';
+@import './window.scss';
+@import './margins.scss';
+@import './scrollbar.scss';
