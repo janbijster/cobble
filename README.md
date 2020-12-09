@@ -14,7 +14,7 @@ Visual creative coding in the browser!
 [view on youtube](https://youtu.be/oILrJw5bNsY)
 
 ## Overview
-Cobble is node editor built around P5.js.
+Cobble is node editor built around [P5.js](https://p5js.org/).
 
 The goal of the project is to create an easy low-threshold environment to get introduced to the field of creative coding.
 
