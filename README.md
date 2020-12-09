@@ -5,7 +5,7 @@ Visual creative coding in the browser!
 ![cobble examples](./src/assets/images/cobble-reel.gif)
 
 ## Try it out
-[www.cobbleup.org](https://www.cobbleup.org)
+[www.cobbleup.org](https://cobbleup.org)
 
 ## Quick 2 min demo sketch
 [<img src="./src/assets/images/cobble-youtube.jpg">](https://youtu.be/oILrJw5bNsY)
