@@ -37,9 +37,11 @@ Cobble is currently in an alpha version. I am rolling out incremental updates wh
 **Features**
 * Drag a buildingblock of the field to delete
 * Drag a connection away to delete the connection
+* Edit standard values directly on the block instead of clicking edit
 * Copy and paste a building block or group of connected building blocks
 * Be able to select a group of blocks and turn them into group-block
 * Loop block: a block with an index as output. Every block (indirectly) connected to this index is executed n times, with the index incrementing.
+* Export code
 * Gallery with published sketches
 * Proper backend for saving and loading
 
